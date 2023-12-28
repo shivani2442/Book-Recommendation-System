@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 from sklearn.metrics.pairwise import cosine_similarity
 
-st.header("Book Recommender System")
+st.header("BookExplorer")
 
 books_name = pickle.load(open('/Users/Dell/OneDrive/Desktop/DataAnalysis/Bookrecommender/book_title.pkl', 'rb'))
 pt = pickle.load(open('/Users/Dell/OneDrive/Desktop/DataAnalysis/Bookrecommender/book_pivot.pkl', 'rb'))
